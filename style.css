@@ -33,6 +33,11 @@ body
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
+	transition: width 0.9s;
+}
+.navigation.active
+{
+	width: 0;
 }
 .navigation ul
 {
@@ -89,4 +94,25 @@ body
 	justify-content: space-between;
 	align-items: center;
 	z-index: 10000;
+}
+.main .topbar .logo
+{
+	color: var(--black);
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 3.4mm;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.main .topbar .toggle
+{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	color: var(--black);
 }

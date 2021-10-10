@@ -16,12 +16,23 @@
 		</div>
 		<div class="main">
 			<div class="topbar">
-				<a href="#" class="logo">Portfolio</a>
+				<a href="#" class="logo">Егор</a>
 				<div class="toggle">
 					<i class="fa fa-bars" aria-hidden="true"></i>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<script>
+		let toggle = document.querySelector('.toggle');
+		let topbar = document.querySelector('.topbar');
+		let navigation = document.querySelector('.navigation');
+		toggle.onclick = function(){
+			toggle.classList.toggle('active');
+			topbar.classList.toggle('active');
+			navigation.classList.toggle('active');
+		}
+	</script>	
 </body>
 </html>
