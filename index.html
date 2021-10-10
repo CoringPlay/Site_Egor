@@ -10,8 +10,8 @@
 	<div class="container">
 		<div class="navigation">
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
+				<li><a href="#banner">Главная</a></li>
+				<li><a href="#">Обо мне</a></li>
 			</ul>
 		</div>
 		<div class="main">
@@ -21,6 +21,26 @@
 					<i class="fa fa-bars" aria-hidden="true"></i>
 				</div>
 			</div>
+
+			<!--Banner-->
+			<section class="banner" id="banner">
+				<div class="content">
+					<div class="imgBx">
+						<img src="logo.jpg">
+					</div>
+					<h3>Имя</h3>
+					<p>Кто я</p>
+					<ul class="social">
+						<li><i class="fa fa-vk" aria-hidden="true"></i></li>
+					</ul>
+				</div>
+			</section>
+			<!-- About -->
+			<section>
+				<div>
+					<h2>Обо мне</h2>
+				</div>
+			</section>
 		</div>
 	</div>
 
@@ -28,10 +48,12 @@
 		let toggle = document.querySelector('.toggle');
 		let topbar = document.querySelector('.topbar');
 		let navigation = document.querySelector('.navigation');
+		let main = document.querySelector('.main');
 		toggle.onclick = function(){
 			toggle.classList.toggle('active');
 			topbar.classList.toggle('active');
 			navigation.classList.toggle('active');
+			main.classList.toggle('active');
 		}
 	</script>	
 </body>
