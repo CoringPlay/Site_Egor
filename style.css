@@ -22,4 +22,9 @@ body
 	position: relative;
 	width: 100%;
 }
-.
+.navigation
+{
+	position: fixed;
+	width: 300px;
+	height: 100%;
+}
