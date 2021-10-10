@@ -82,5 +82,11 @@ body
 	width: calc(100% - 300px);
 	left: 300px;
 	background: var(--white2);
-	border-bottom: 1px solid rgba(0, 0, 0, 1.0);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	height: 60px;
+	padding: 0 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10000;
 }
