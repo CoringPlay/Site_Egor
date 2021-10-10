@@ -13,3 +13,13 @@
 	--white: #fff;
 	--white2: #fff;
 }
+body
+{
+	overflow-x: hidden;
+}
+.contaioner
+{
+	position: relative;
+	width: 100%;
+}
+.
